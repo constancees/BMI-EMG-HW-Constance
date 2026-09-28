@@ -2107,6 +2107,469 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Protection:USBLC6-2SC6"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0.635 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USBLC6-2SC6"
+				(at 0.635 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+				(at 1.27 -8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "usb ethernet video"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_0"
+				(circle
+					(center -1.524 0)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -3.048) (xy -1.016 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+						(xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.048) (xy 2.032 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_1_1"
+				(rectangle
+					(start -2.54 2.794)
+					(end 2.54 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2513,26 +2976,6 @@
 		)
 		(uuid "9eedbe52-46c9-4065-816c-1cfb5c385cb4")
 	)
-	(text_box "Mettre diode TVS entre ligne protegée et ground a l'endoirt ou je branche, entre USBC et gnd et entre la sortie et gnd\naussi entre D+ D- et gnd\nPeut utiliser une diode à souder un peu partout, pas prendre bidirectionnel\nprendre 0.5V au dessus du signal utile"
-		(exclude_from_sim no)
-		(at 129.54 170.18 0)
-		(size 45.72 19.0501)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "a5e403fd-25ea-498a-88c5-46d3405bcfdd")
-	)
 	(text_box "R14 is a thermistor to be placed as close to the battery as possible. The Seiko BMS integrated in our battery only handles the electric protection (charge, discharge) and not the temperature. Via TS, the IC progressively adjusts the charging profile according to the temperature to preserve the battery (JEITA). Its value at 25°C should be of 10kOhm."
 		(exclude_from_sim no)
 		(at 220.98 38.61 0)
@@ -2573,10 +3016,10 @@
 		)
 		(uuid "c8af01fa-6292-4fd6-9acc-319a4d8825fd")
 	)
-	(text_box "The USB connector we use has to be compatible with the IC used to manage the battery. This is why we chose a USB-C 2.0 connector. The wiring is done to turn it into a \"dumb\" charger, providing the IC with the information of how much current and voltage it can pull, charging the battery and powering the system if a cable is connected, ignoring most of its data transfer abilities.\nSBU1/2 left floating on purpose."
+	(text_box "The USB connector we use has to be compatible with the IC used to manage the battery. This is why we chose a USB-C 2.0 connector. The wiring is done to turn it into a \"dumb\" charger, providing the IC with the information of how much current and voltage it can pull, charging the battery and powering the system if a cable is connected, ignoring most of its data transfer abilities."
 		(exclude_from_sim no)
-		(at 72.39 172.72 0)
-		(size 53.34 20.3053)
+		(at 87.63 166.5861 0)
+		(size 38.1 26.4392)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2709,6 +3152,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 157.48) (xy 86.36 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040466a2-0ea0-46e4-9f14-78ee0322be46")
+	)
+	(wire
+		(pts
 			(xy 64.77 46.99) (xy 64.77 45.72)
 		)
 		(stroke
@@ -2759,13 +3212,23 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 139.7) (xy 60.96 139.7)
+			(xy 60.96 139.7) (xy 77.47 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e431a28-c75a-450f-91a0-402e4891234c")
+	)
+	(wire
+		(pts
+			(xy 66.04 160.02) (xy 72.39 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14166cda-8514-49e2-8bf8-34f56cfde5af")
 	)
 	(wire
 		(pts
@@ -2789,7 +3252,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 157.48) (xy 66.04 157.48)
+			(xy 60.96 157.48) (xy 72.39 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3009,6 +3472,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 160.02) (xy 86.36 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f7e647-6281-46f2-a24a-6ddbddf7008f")
+	)
+	(wire
+		(pts
 			(xy 203.2 121.92) (xy 212.09 121.92)
 		)
 		(stroke
@@ -3036,6 +3509,16 @@
 			(type default)
 		)
 		(uuid "611afd64-abc0-4c91-bb7f-ef5e6e8f959b")
+	)
+	(wire
+		(pts
+			(xy 66.04 152.4) (xy 66.04 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f5f840-6fd3-4951-a26f-666f96ac05bb")
 	)
 	(wire
 		(pts
@@ -3349,6 +3832,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 139.7) (xy 77.47 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac5b7d0e-117c-42ec-96bd-eca4e7cc0a69")
+	)
+	(wire
+		(pts
 			(xy 194.31 113.03) (xy 200.66 113.03)
 		)
 		(stroke
@@ -3396,6 +3889,16 @@
 			(type default)
 		)
 		(uuid "c875b984-9eb4-4e13-8ad3-63cd56c0a0a2")
+	)
+	(wire
+		(pts
+			(xy 77.47 165.1) (xy 77.47 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac321eb-3c2c-4b02-8ff2-955657ba5b8b")
 	)
 	(wire
 		(pts
@@ -3496,6 +3999,16 @@
 			(type default)
 		)
 		(uuid "e54dc178-8ef4-4df4-948b-477ca94f3780")
+	)
+	(wire
+		(pts
+			(xy 77.47 177.8) (xy 45.72 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7bd057c-4d15-4135-82ba-2434a79e4604")
 	)
 	(wire
 		(pts
@@ -3658,7 +4171,7 @@
 		(uuid "42a5cc98-68b4-46e6-9299-87749f6cafcc")
 	)
 	(label "VBUS"
-		(at 66.04 139.7 0)
+		(at 77.47 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3737,16 +4250,6 @@
 		)
 		(uuid "7ca0b593-f95b-4c12-9f05-83cef99067e4")
 	)
-	(label "D-"
-		(at 66.04 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f270c98-d39b-48be-be41-5deff0cabcfe")
-	)
 	(label "ILIM"
 		(at 140.97 146.05 0)
 		(effects
@@ -3766,6 +4269,16 @@
 			(justify left bottom)
 		)
 		(uuid "8bf1639f-1b0e-4416-b4ae-e05db91498d7")
+	)
+	(label "D-"
+		(at 86.36 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a04c5d3-356c-4866-ab07-50a222c7a795")
 	)
 	(label "SW"
 		(at 64.77 54.61 0)
@@ -3837,16 +4350,6 @@
 		)
 		(uuid "a88fe452-1088-451f-8024-8fa777a4866b")
 	)
-	(label "D+"
-		(at 66.04 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1241ecc-c800-4619-b86f-49c43b9c674c")
-	)
 	(label "ICHGSET"
 		(at 95.25 34.29 90)
 		(effects
@@ -3866,6 +4369,16 @@
 			(justify left bottom)
 		)
 		(uuid "c2d19b56-60ab-42fd-9574-18e3d36cdbda")
+	)
+	(label "D+"
+		(at 86.36 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1e31dbf-c232-4be0-ad65-1c971d969c90")
 	)
 	(label "PMID"
 		(at 177.8 118.11 0)
@@ -6972,6 +7485,103 @@
 			(project "power_v3.0"
 				(path "/432bcdcf-747a-4fa0-b87b-096f44260199/b63164f7-da09-43bf-9854-ef6b4b4934c1"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 77.47 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f384401d-9ed1-48a3-a1de-8cf3cb8c40a4")
+		(property "Reference" "U1"
+			(at 79.1211 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2"
+			(at 79.1211 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 78.74 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 78.74 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 77.47 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "9696ca6d-9623-4695-8ae5-f522ee3ca8e5")
+		)
+		(pin "4"
+			(uuid "ca800d25-15c3-4e18-9278-c5c41a1cae64")
+		)
+		(pin "6"
+			(uuid "dc09dd4b-136c-4292-90c2-3b9fc5cd5cd8")
+		)
+		(pin "3"
+			(uuid "906597ab-9484-4d80-a947-97d48f90e097")
+		)
+		(pin "2"
+			(uuid "3cca64c3-fafc-4ea5-9258-4e48aec8fbce")
+		)
+		(pin "1"
+			(uuid "dc5f599d-fc67-460e-8c37-31f3919f9f7e")
+		)
+		(instances
+			(project "power_v3.0"
+				(path "/432bcdcf-747a-4fa0-b87b-096f44260199/b63164f7-da09-43bf-9854-ef6b4b4934c1"
+					(reference "U1")
 					(unit 1)
 				)
 			)

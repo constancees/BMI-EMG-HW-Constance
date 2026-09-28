@@ -429,7 +429,7 @@
         "uuid": "432bcdcf-747a-4fa0-b87b-096f44260199"
       }
     ],
-    "used_designators": "IC2,R15-16,J2-3,#PWR1-2,#PWR10-11,#PWR13-17,#PWR20,C5-6,C8-10,C14-15,TP10",
+    "used_designators": "IC2,R15-16,J2-3,D1,#PWR1-2,#PWR10-11,#PWR13-20,C5-6,C8-11,C14-15,TP10,U1,U4,3.6V3",
     "variants": []
   },
   "sheets": [
