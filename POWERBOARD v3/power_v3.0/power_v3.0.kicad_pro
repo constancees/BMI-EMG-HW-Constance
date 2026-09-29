@@ -429,7 +429,7 @@
         "uuid": "432bcdcf-747a-4fa0-b87b-096f44260199"
       }
     ],
-    "used_designators": "IC2,R15-16,J2-3,D1,#PWR1-2,#PWR10-11,#PWR13-20,C5-6,C8-11,C14-15,TP10,U1,U4,3.6V3",
+    "used_designators": "IC1-2,#FLG1-5,R4-6,R15-16,Cin1,J2-3,D1,#PWR1-2,#PWR10-26,5V1-2,C5-6,C8-11,C14-15,TP10,U1,U3-4,3.6V3,5.3V1-2,BUCK1IN1,Cout1,F1,GND1-2,L1,SYS1",
     "variants": []
   },
   "sheets": [
@@ -438,16 +438,16 @@
       "power_v3.0"
     ],
     [
-      "2cc5869c-675e-41fd-a6c3-cf599beec083",
-      "Conversion battery-5.3V (page 2)"
+      "8c4c7ccb-740f-404a-a679-bbb9ed48444d",
+      "Conversion battery-5.3V"
     ],
     [
       "b63164f7-da09-43bf-9854-ef6b4b4934c1",
       "Charging circuit"
     ],
     [
-      "866bbf8f-ce37-4fcc-b504-1859f0ec9ca1",
-      "Conversion 5.3V-5V (page 4)"
+      "d34c4d5c-3529-4589-bd14-5dc8f8f897de",
+      "Conversion 5.3-5V"
     ]
   ],
   "text_variables": {},
