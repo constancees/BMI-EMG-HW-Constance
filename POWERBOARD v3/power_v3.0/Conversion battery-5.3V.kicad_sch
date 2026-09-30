@@ -1463,7 +1463,8 @@
 			(type solid)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 92 0 255 0.168627451)
 		)
 		(effects
 			(font
@@ -1755,7 +1756,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 76.2) (xy 223.52 76.2)
+			(xy 203.2 76.2) (xy 254 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2136,7 +2137,7 @@
 	)
 	(hierarchical_label "output_at_5.3"
 		(shape output)
-		(at 223.52 76.2 0)
+		(at 254 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)

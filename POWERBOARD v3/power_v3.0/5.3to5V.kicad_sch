@@ -1081,7 +1081,7 @@
 		)
 		(fill
 			(type color)
-			(color 0 0 255 0.1490196078)
+			(color 92 0 255 0.168627451)
 		)
 		(effects
 			(font
@@ -1091,6 +1091,46 @@
 			(justify left top)
 		)
 		(uuid "00b4b4c2-5f15-4805-be16-4bd899a3af11")
+	)
+	(text_box "Clamping value of D3 : 6.0V\n"
+		(exclude_from_sim no)
+		(at 121.92 107.95 0)
+		(size 26.67 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2e1f3d8e-dda3-431b-9eb0-f474d4503af8")
+	)
+	(text_box "Clamping value of D4 : 5.49V\n"
+		(exclude_from_sim no)
+		(at 21.59 80.01 0)
+		(size 26.67 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5ac3430e-a819-4057-8c13-473b8b8b2fec")
 	)
 	(text_box "C10 MUST be low-ESR (<0.03 Ohm)"
 		(exclude_from_sim no)
@@ -1113,6 +1153,18 @@
 		(uuid "666e0f47-483e-4753-85c9-937f9430f713")
 	)
 	(junction
+		(at 133.35 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0adb4186-6dd3-44f6-9bbb-10b3c520bc15")
+	)
+	(junction
+		(at 133.35 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0baf5759-aff1-4a17-a17f-ef4a10aea1e9")
+	)
+	(junction
 		(at 175.26 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1131,10 +1183,10 @@
 		(uuid "992bad1c-166f-46c6-bf1c-8620fc5eab90")
 	)
 	(junction
-		(at 143.51 96.52)
+		(at 54.61 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a1d8f3cb-aab3-4ef0-9e1d-608c264f94c0")
+		(uuid "9f242f88-ecf8-4ed2-aa87-5ce204cea36f")
 	)
 	(junction
 		(at 102.87 96.52)
@@ -1161,12 +1213,6 @@
 		(uuid "eeecf685-36c8-44fe-a4a6-c89d67cf4450")
 	)
 	(junction
-		(at 143.51 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef847f23-aa98-4e66-ab9d-e762aebcb273")
-	)
-	(junction
 		(at 128.27 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1184,16 +1230,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 80.01) (xy 143.51 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b0fe9a6-9e25-470c-8e29-051e3793a073")
-	)
-	(wire
-		(pts
 			(xy 80.01 81.28) (xy 87.63 81.28)
 		)
 		(stroke
@@ -1201,16 +1237,6 @@
 			(type default)
 		)
 		(uuid "0c1fd81f-f909-4745-b781-1e076c2bb10c")
-	)
-	(wire
-		(pts
-			(xy 143.51 87.63) (xy 143.51 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cb64837-489e-4da1-a112-306f31a6632d")
 	)
 	(wire
 		(pts
@@ -1284,7 +1310,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 71.12) (xy 143.51 71.12)
+			(xy 121.92 71.12) (xy 158.75 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1334,6 +1360,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 86.36) (xy 54.61 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52bfe759-cf91-4f0b-8628-86f74867c2f1")
+	)
+	(wire
+		(pts
 			(xy 179.07 80.01) (xy 175.26 80.01)
 		)
 		(stroke
@@ -1354,13 +1390,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 96.52) (xy 143.51 96.52)
+			(xy 133.35 87.63) (xy 133.35 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67a32832-9551-45ed-86a8-3da6fa70e4aa")
+		(uuid "5fc642c6-3bc4-44f9-9cb8-8cc8d6df3847")
+	)
+	(wire
+		(pts
+			(xy 54.61 96.52) (xy 102.87 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60224756-a8e6-4cf7-b6ba-d7a419819e34")
 	)
 	(wire
 		(pts
@@ -1424,6 +1470,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 71.12) (xy 133.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "960e47eb-bf63-444b-a6c9-29236078b689")
+	)
+	(wire
+		(pts
 			(xy 121.92 73.66) (xy 121.92 71.12)
 		)
 		(stroke
@@ -1474,16 +1530,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 71.12) (xy 158.75 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd7836aa-c24b-45a4-a900-70a32be2fec0")
-	)
-	(wire
-		(pts
 			(xy 175.26 68.58) (xy 175.26 71.12)
 		)
 		(stroke
@@ -1494,13 +1540,33 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 71.12) (xy 85.09 71.12)
+			(xy 45.72 71.12) (xy 54.61 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c773e379-5995-435b-afb4-b1d37bbc18a2")
+	)
+	(wire
+		(pts
+			(xy 54.61 71.12) (xy 54.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1a1996-d12e-4ca4-b818-c543a63d7e2c")
+	)
+	(wire
+		(pts
+			(xy 54.61 71.12) (xy 85.09 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3bdfc6c-556c-41f2-bf30-d5637fb338d4")
 	)
 	(wire
 		(pts
@@ -1524,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 96.52) (xy 102.87 96.52)
+			(xy 102.87 96.52) (xy 158.75 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1624,7 +1690,7 @@
 	)
 	(hierarchical_label "input_at_5.3"
 		(shape input)
-		(at 67.31 71.12 180)
+		(at 45.72 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1798,6 +1864,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 54.61 82.55 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d12bf60-d935-4b16-9220-1080e4cda784")
+		(property "Reference" "D4"
+			(at 57.15 81.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SOD323"
+			(at 57.15 83.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 54.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/86475/gdz.pdf"
+			(at 54.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 54.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d93aff4b-d9e1-4a25-81d8-efdb09b9349e")
+		)
+		(pin "2"
+			(uuid "5226f53f-7e21-4e3f-bb85-13dd042db599")
+		)
+		(instances
+			(project "power_v3.0"
+				(path "/432bcdcf-747a-4fa0-b87b-096f44260199/d34c4d5c-3529-4589-bd14-5dc8f8f897de"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "N_pulse:MAX25301AATB_V+T")
 		(at 87.63 71.12 0)
 		(unit 1)
@@ -1959,6 +2107,10 @@
 		)
 		(instances
 			(project "power_v3.0"
+				(path "/432bcdcf-747a-4fa0-b87b-096f44260199/b63164f7-da09-43bf-9854-ef6b4b4934c1"
+					(reference "IC1")
+					(unit 1)
+				)
 				(path "/432bcdcf-747a-4fa0-b87b-096f44260199/d34c4d5c-3529-4589-bd14-5dc8f8f897de"
 					(reference "IC1")
 					(unit 1)
@@ -2445,7 +2597,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 143.51 83.82 90)
+		(at 133.35 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2456,29 +2608,29 @@
 		(fields_autoplaced yes)
 		(uuid "d765ae18-a945-4b0d-a953-1db0f76a593f")
 		(property "Reference" "D1"
-			(at 146.05 82.5499 90)
+			(at 135.89 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D_TVS"
-			(at 146.05 85.0899 90)
+		(property "Value" "PTVS6V0P1UP-QX"
+			(at 135.89 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 143.51 83.82 0)
+			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2488,8 +2640,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 143.51 83.82 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVSXP1UP-Q_SER.pdf"
+			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2500,7 +2652,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 143.51 83.82 0)
+			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
