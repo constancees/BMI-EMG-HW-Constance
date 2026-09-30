@@ -1071,7 +1071,7 @@
 	)
 	(text_box "LDO: MAX25301A\nVIN: 5V3 (1.7V-5.5V)\nVOUT: 5V (SELA=IN, SELB=IN)\nImax: 1A (Ilim 1.4A typ)\nDropout: 100mV max @ 1A\nCIN/COUT: 10uF / 10uF (4uF min after derating)\nCBYP: 10nF OUT-to-BYP (soft-start 5V/ms)\nOUTS: Kelvin back to load"
 		(exclude_from_sim no)
-		(at 177.8 128.27 0)
+		(at 180.34 121.92 0)
 		(size 50.8 18.2607)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2107,10 +2107,6 @@
 		)
 		(instances
 			(project "power_v3.0"
-				(path "/432bcdcf-747a-4fa0-b87b-096f44260199/b63164f7-da09-43bf-9854-ef6b4b4934c1"
-					(reference "IC1")
-					(unit 1)
-				)
 				(path "/432bcdcf-747a-4fa0-b87b-096f44260199/d34c4d5c-3529-4589-bd14-5dc8f8f897de"
 					(reference "IC1")
 					(unit 1)

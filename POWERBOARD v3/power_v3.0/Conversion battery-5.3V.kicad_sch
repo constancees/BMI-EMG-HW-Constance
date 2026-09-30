@@ -1453,14 +1453,15 @@
 		)
 		(uuid "0a924fa4-9713-4c33-8f56-c1efd57e823a")
 	)
-	(text_box "Revoir toutes les valeurs pr le buck parce que actuellement il donne 5V2 au lieu de 5V3 mais sinon ça fonctionne\n"
+	(text_box "BUCK: TPS62160DSG\nVIN: SYS (3V-17V, ~7.2-8.4V from battery)\nVOUT: 5.3V (R4=1.02M,R5=180k,VOUT=0.8V*(1+R4/R5))\nImax: 1A (Ilim 1.45-2.45A typ 1.95A)\nfSW: 2.25MHz\nL/COUT: 2.2uH / 22uF (LC combo recommended)\nCIN: 10uF\nEN: tied to VIN (always on)\nPG: tied to GND (unused)\nVPS: Kelvin direct to VOUT (control loop)"
 		(exclude_from_sim no)
-		(at 49.53 137.16 0)
-		(size 45.72 19.0501)
+		(at 191.77 130.5454 0)
+		(size 58.42 22.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type solid)
+			(color 0 0 255 1)
 		)
 		(fill
 			(type color)
@@ -1469,10 +1470,71 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.1588)
 			)
 			(justify left top)
 		)
-		(uuid "f090fa24-c1a6-4009-9641-1bf3257ebe07")
+		(uuid "35306505-21e4-4a7a-8538-df42fabda6a4")
+	)
+	(text_box "EN-VIN : starts as soon as system turns on\n"
+		(exclude_from_sim no)
+		(at 78.74 104.14 0)
+		(size 25.4 8.0376)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "aa5cde98-a17c-495e-b523-f14e517d3550")
+	)
+	(text_box "Connect VOS as close as possible to VOUT at the output capacitor"
+		(exclude_from_sim no)
+		(at 220.98 97.79 0)
+		(size 25.4 8.0376)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "bee34152-767a-403e-a85f-dce9e2227ee4")
+	)
+	(text_box "R6 is a bledder resistor (= safely discharges stored electrical energy after equipment is turned off)"
+		(exclude_from_sim no)
+		(at 185.42 56.9486 0)
+		(size 31.75 10.3614)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c461d349-941c-434a-aadf-23fc4dff965d")
 	)
 	(junction
 		(at 185.42 100.33)
