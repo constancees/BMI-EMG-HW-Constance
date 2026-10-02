@@ -429,7 +429,7 @@
         "uuid": "432bcdcf-747a-4fa0-b87b-096f44260199"
       }
     ],
-    "used_designators": "IC1-2,#FLG1-5,R4-6,R15-16,Cin1,J2-3,D1,D4,#PWR1-2,#PWR10-28,5V1-2,C5-6,C8-12,C14-15,TP10,U1,U3-4,3.6V3,5.3V1-2,BUCK1IN1,Cout1,F1,GND1-2,L1,SYS1",
+    "used_designators": "Cin1,J2-3,#FLG1-5,R4-6,R15-16,IC1-2,#PWR1-2,#PWR10-28,D1,D4,C5-6,C8-12,C14-15,5V1-2,TP10,U1,U3-4,3.6V3,5.3V1-2,BUCK1IN1,Cout1,F1,GND1-2,L1,SYS1",
     "variants": []
   },
   "sheets": [
