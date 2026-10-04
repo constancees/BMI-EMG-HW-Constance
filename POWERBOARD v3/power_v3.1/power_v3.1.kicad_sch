@@ -83,6 +83,16 @@
 				(justify left top)
 			)
 		)
+		(pin "SYS" output
+			(at 102.87 107.95 0)
+			(uuid "06c923fc-a063-42a2-a36f-0c16d62d3d7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "power_v3.1"
 				(path "/432bcdcf-747a-4fa0-b87b-096f44260199"
@@ -129,6 +139,26 @@
 				(justify left top)
 			)
 		)
+		(pin "output_at_5.3" output
+			(at 153.67 107.95 0)
+			(uuid "1996aa91-9df2-4076-b9ff-96ee0af6a8c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS" input
+			(at 124.46 107.95 180)
+			(uuid "76022a0e-254c-41b3-bdd8-311f1723c161")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "power_v3.1"
 				(path "/432bcdcf-747a-4fa0-b87b-096f44260199"
@@ -173,6 +203,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "input_at_5.3" input
+			(at 175.26 107.95 180)
+			(uuid "dacfaa93-4e60-494f-97d7-115f233c1b50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

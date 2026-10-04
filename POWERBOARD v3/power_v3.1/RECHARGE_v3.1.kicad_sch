@@ -5609,16 +5609,6 @@
 		)
 		(uuid "a88fe452-1088-451f-8024-8fa777a4866b")
 	)
-	(label "3V3"
-		(at 87.63 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b299211d-42c9-47a0-b263-8f1ff90a93e8")
-	)
 	(label "ICHGSET"
 		(at 81.28 33.02 90)
 		(effects
