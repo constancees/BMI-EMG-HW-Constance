@@ -1597,10 +1597,10 @@
 		(uuid "8f43d689-66d6-4694-ae8c-7722edbc81da")
 	)
 	(junction
-		(at 212.09 119.38)
+		(at 203.2 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "980b9540-bd5e-4123-847a-fbf3819d4ed2")
+		(uuid "97a15717-21c0-462c-b830-b254ba37b976")
 	)
 	(junction
 		(at 185.42 119.38)
@@ -1615,22 +1615,16 @@
 		(uuid "a7bf4774-40f3-4454-967c-e6495731523c")
 	)
 	(junction
-		(at 209.55 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b67bad0a-57fb-48a5-8be2-69880fedd79d")
-	)
-	(junction
 		(at 144.78 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfb20416-7c3e-4b1f-b21a-d358e888af39")
 	)
 	(junction
-		(at 203.2 119.38)
+		(at 222.25 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c041a116-6f84-4d1e-92ec-f92aeaff4747")
+		(uuid "d029885e-02e4-48d4-937c-615d65708c6e")
 	)
 	(junction
 		(at 91.44 95.25)
@@ -1649,12 +1643,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa5b08fc-c239-419c-b2f2-a62e99103ef7")
-	)
-	(junction
-		(at 203.2 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc06426f-0169-4f91-bce8-997ad1e9f638")
 	)
 	(wire
 		(pts
@@ -1718,6 +1706,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 76.2) (xy 254 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b2be56-7956-4ae6-bc5c-d6537105c553")
+	)
+	(wire
+		(pts
 			(xy 149.86 113.03) (xy 149.86 119.38)
 		)
 		(stroke
@@ -1748,7 +1746,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 90.17) (xy 203.2 96.52)
+			(xy 203.2 86.36) (xy 203.2 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1775,16 +1773,6 @@
 			(type default)
 		)
 		(uuid "4a3db061-28cb-458a-816f-db6b1140b7e9")
-	)
-	(wire
-		(pts
-			(xy 203.2 86.36) (xy 203.2 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5188965c-6127-43a6-b86c-1e50d150fe2f")
 	)
 	(wire
 		(pts
@@ -1818,7 +1806,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 76.2) (xy 254 76.2)
+			(xy 203.2 76.2) (xy 222.25 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1855,16 +1843,6 @@
 			(type default)
 		)
 		(uuid "68688f92-4d05-4c3f-b454-295c44b6ac0b")
-	)
-	(wire
-		(pts
-			(xy 209.55 119.38) (xy 203.2 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d28d3d7-0272-40f6-baf1-131f1010876b")
 	)
 	(wire
 		(pts
@@ -1988,16 +1966,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 119.38) (xy 212.09 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac6821ba-e202-4282-9da2-fcda51ee654e")
-	)
-	(wire
-		(pts
 			(xy 177.8 86.36) (xy 185.42 86.36)
 		)
 		(stroke
@@ -2088,16 +2056,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 119.38) (xy 212.09 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2f65671-afdb-4867-80c9-b84ed0ee7f81")
-	)
-	(wire
-		(pts
 			(xy 119.38 110.49) (xy 119.38 119.38)
 		)
 		(stroke
@@ -2128,16 +2086,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 90.17) (xy 218.44 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f087010d-1875-403f-bfa4-283280d9d89a")
-	)
-	(wire
-		(pts
 			(xy 144.78 113.03) (xy 144.78 119.38)
 		)
 		(stroke
@@ -2145,16 +2093,6 @@
 			(type default)
 		)
 		(uuid "f4152a38-718f-4dca-afab-68b9512d08a9")
-	)
-	(wire
-		(pts
-			(xy 218.44 92.71) (xy 218.44 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f633ebde-ddda-4fdb-bc3f-5c28ddfca693")
 	)
 	(wire
 		(pts
@@ -2288,170 +2226,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 223.52 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c0b5c24-c64b-44c4-93c9-cf0dcdecb889")
-		(property "Reference" "5.3V2"
-			(at 226.06 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 226.06 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
-			(at 223.52 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 223.52 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "71afb51e-fc72-4223-af25-8c47e6ceeec5")
-		)
-		(pin "2"
-			(uuid "a061de6c-c831-47bc-b347-4fe277893f7b")
-		)
-		(instances
-			(project "power_v3.3"
-				(path "/432bcdcf-747a-4fa0-b87b-096f44260199/f925c271-3618-472c-a852-decfd101971b"
-					(reference "5.3V2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 212.09 124.46 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2138c35d-fbe8-4459-9a23-92ccca819ed7")
-		(property "Reference" "GND2"
-			(at 214.63 123.1899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 214.63 125.7299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
-			(at 212.09 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 212.09 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83efa940-ef56-48fb-b735-85f324cb9130")
-		)
-		(pin "2"
-			(uuid "a8f0fc6d-e8e6-4baf-902f-9d3e9745d262")
-		)
-		(instances
-			(project "power_v3.3"
-				(path "/432bcdcf-747a-4fa0-b87b-096f44260199/f925c271-3618-472c-a852-decfd101971b"
-					(reference "GND2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 165.1 86.36 90)
 		(unit 1)
@@ -2483,7 +2257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns-SRN4018"
+		(property "Footprint" "78438336022:78438336022"
 			(at 165.1 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2565,7 +2339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 183.642 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -2811,7 +2585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.072 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -3271,7 +3045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 204.1652 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3353,7 +3127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 183.642 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -3475,6 +3249,164 @@
 			(project "power_v3.3"
 				(path "/432bcdcf-747a-4fa0-b87b-096f44260199/f925c271-3618-472c-a852-decfd101971b"
 					(reference "SYS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 222.25 76.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8816ea7-6c90-4fb6-ae95-b65284822a97")
+		(property "Reference" "BUCK5V3"
+			(at 224.79 78.2319 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.79 80.7719 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 217.17 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 222.25 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a249d8f-8b11-4070-9c13-c3b4f3cd1c20")
+		)
+		(instances
+			(project "power_v3.3"
+				(path "/432bcdcf-747a-4fa0-b87b-096f44260199/f925c271-3618-472c-a852-decfd101971b"
+					(reference "BUCK5V3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 203.2 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed4d6826-46ab-4cff-a93a-e87146fc4ca4")
+		(property "Reference" "GND2"
+			(at 208.28 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 208.28 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 203.2 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 203.2 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "764ae56d-064f-469b-83b4-05fcd5efc98d")
+		)
+		(instances
+			(project "power_v3.3"
+				(path "/432bcdcf-747a-4fa0-b87b-096f44260199/f925c271-3618-472c-a852-decfd101971b"
+					(reference "GND2")
 					(unit 1)
 				)
 			)
