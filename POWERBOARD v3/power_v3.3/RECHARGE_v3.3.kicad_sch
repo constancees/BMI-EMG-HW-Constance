@@ -3548,6 +3548,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 185.42) (xy 77.47 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056de8c6-703e-4a94-ac8c-883fb531a55e")
+	)
+	(wire
+		(pts
 			(xy 33.02 54.61) (xy 59.69 54.61)
 		)
 		(stroke
@@ -3655,6 +3665,16 @@
 			(type default)
 		)
 		(uuid "1fd2cad2-c171-400c-9e6a-7f884285c6d7")
+	)
+	(wire
+		(pts
+			(xy 77.47 151.13) (xy 77.47 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215abd16-eeaf-4e5d-bdb8-b68c431841cc")
 	)
 	(wire
 		(pts
@@ -4475,16 +4495,6 @@
 			(type default)
 		)
 		(uuid "c875b984-9eb4-4e13-8ad3-63cd56c0a0a2")
-	)
-	(wire
-		(pts
-			(xy 77.47 151.13) (xy 77.47 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cac321eb-3c2c-4b02-8ff2-955657ba5b8b")
 	)
 	(wire
 		(pts
@@ -6544,7 +6554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UJ20-C-H-G-SMT-1-P16-TR:SAMESKY_UJ20-C-H-G-SMT-1-P16-TR"
+		(property "Footprint" "UJ20_C_H_G_SMT_1_P16_TR:SAMESKY_UJ20-C-H-G-SMT-1-P16-TR"
 			(at 45.72 152.4 0)
 			(hide yes)
 			(show_name no)

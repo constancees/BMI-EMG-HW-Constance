@@ -1326,6 +1326,16 @@
 		)
 		(uuid "a664984d-933d-48e2-934c-65712f28af3d")
 	)
+	(text "ajouter buzzer + système de switch des machins"
+		(exclude_from_sim no)
+		(at 63.754 31.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db3d2ec1-2f81-4a01-aa09-b785ca0106ed")
+	)
 	(text_box "LDO: MAX25301A\nVIN: 5V3 (1.7V-5.5V)\nVOUT: 5V (SELA=IN, SELB=IN)\nImax: 1A (Ilim 1.4A typ)\nDropout: 100mV max @ 1A\nCIN/COUT: 10uF / 10uF (4uF min after derating)\nCBYP: 10nF OUT-to-BYP (soft-start 5V/ms)\nOUTS: Kelvin back to load"
 		(exclude_from_sim no)
 		(at 180.34 121.92 0)
@@ -2397,7 +2407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "N_pulse:SON50P300X300X80-11N"
+		(property "Footprint" "MAX25301AATB_V+T:SON50P300X300X80-11N"
 			(at 151.13 168.58 0)
 			(hide yes)
 			(show_name no)

@@ -611,14 +611,86 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Référence"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -649,6 +721,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -661,7 +741,7 @@
         "uuid": "432bcdcf-747a-4fa0-b87b-096f44260199"
       }
     ],
-    "used_designators": "LDO5V1,Cin1,J1-3,#FLG1-5,R1-12,R15-16,IC1-2,#PWR1-2,#PWR10-28,D1-4,C1-15,5V1-2,TP10,U1-4,3.6V3,5.3V1-2,BUCK1IN1,Cout1,F1,GND1-2,L1-2,SYS1-2,CHAR/BATT1,BAT1",
+    "used_designators": "LDO5V1,Cin1,J1-3,#FLG1-5,R1-12,R15-16,IC1-2,#PWR1-2,#PWR10-28,D1-4,C1-15,5V1-2,TP10,U1-4,3.6V3,5.3V1-2,BUCK1IN1,Cout1,F1,GND1-2,L1-2,SYS1-2,CHAR/BATT1,BAT1,BZ1,S1",
     "variants": []
   },
   "sheets": [
