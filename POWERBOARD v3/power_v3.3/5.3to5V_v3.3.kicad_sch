@@ -4443,7 +4443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57373282-1463-4a33-b68e-80265b168650")
-		(property "Reference" "LDO5V"
+		(property "Reference" "LDO5V1"
 			(at 208.28 46.2279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4504,7 +4504,7 @@
 		(instances
 			(project "power_v3.3"
 				(path "/432bcdcf-747a-4fa0-b87b-096f44260199/9585df76-13b3-4fa5-b448-53940051778a"
-					(reference "LDO5V")
+					(reference "LDO5V1")
 					(unit 1)
 				)
 			)
