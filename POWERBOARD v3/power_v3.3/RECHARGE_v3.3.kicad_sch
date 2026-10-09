@@ -2345,6 +2345,244 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SMBJ9_0A:SMBJ9.0A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 10.16 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SMBJ9.0A"
+				(at 10.16 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DIOM5436X261N"
+				(at 10.16 -93.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://www.semtech.com/products/circuit-protection/esd-protection/smbj9.0a"
+				(at 10.16 -193.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "1-Line ESD Protection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "2.61"
+				(at 10.16 -393.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 10.16 -493.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 10.16 -593.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Name" "SEMTECH"
+				(at 10.16 -693.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SMBJ9.0A"
+				(at 10.16 -793.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(symbol "SMBJ9.0A_1_1"
+				(polyline
+					(pts
+						(xy 4.064 2.54) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 6.096 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "UJ20-C-H-G-SMT-1-P16-TR:UJ20-C-H-G-SMT-1-P16-TR"
 			(pin_names
 				(offset 1.016)
@@ -3244,8 +3482,8 @@
 	)
 	(text_box "Handles the charging of the battery and power management of the system. To understand the function of each pin, please refer to the documentation, as most of the connections, resistor and capacitance value selection has been done by following the requirements/recommendations of the datasheet."
 		(exclude_from_sim no)
-		(at 222.25 144.7799 0)
-		(size 45.72 19.0501)
+		(at 240.284 135.3462 0)
+		(size 27.686 28.4838)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3383,7 +3621,7 @@
 		(uuid "0aa525af-053d-40f4-a097-33570ae1ae3e")
 	)
 	(junction
-		(at 238.76 133.35)
+		(at 231.14 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12608a80-514e-40b5-b79e-e51bbecbd655")
@@ -3411,6 +3649,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42277466-8dc7-49f2-9cab-839a4f212cf0")
+	)
+	(junction
+		(at 223.52 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "431c2594-ec29-4559-8cb3-0e159716d4d5")
 	)
 	(junction
 		(at 67.31 180.34)
@@ -3489,6 +3733,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea5a8fa3-9f46-4e13-a66f-c769c0a926df")
+	)
+	(junction
+		(at 213.36 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2d432dc-99c4-4153-b0d2-7a2aed74dd77")
 	)
 	(junction
 		(at 170.18 44.45)
@@ -3712,6 +3962,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 148.59) (xy 213.36 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d7c711e-a758-4cd9-a9a4-bc891f2f62e0")
+	)
+	(wire
+		(pts
 			(xy 60.96 132.08) (xy 77.47 132.08)
 		)
 		(stroke
@@ -3882,7 +4142,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 144.78) (xy 213.36 142.24)
+			(xy 213.36 151.13) (xy 213.36 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4162,7 +4422,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 133.35) (xy 238.76 133.35)
+			(xy 223.52 133.35) (xy 246.38 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92434d5f-0a57-4699-8c96-267e1125fec9")
+	)
+	(wire
+		(pts
+			(xy 193.04 133.35) (xy 223.52 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4422,7 +4692,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 134.62) (xy 238.76 133.35)
+			(xy 231.14 130.81) (xy 231.14 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4542,6 +4812,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 148.59) (xy 223.52 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64745a6-cc35-40fa-ba14-6e08b683d8f9")
+	)
+	(wire
+		(pts
 			(xy 213.36 134.62) (xy 213.36 133.35)
 		)
 		(stroke
@@ -4559,16 +4839,6 @@
 			(type default)
 		)
 		(uuid "de4c7cbf-1d54-45f1-bf01-965f3aea0784")
-	)
-	(wire
-		(pts
-			(xy 238.76 133.35) (xy 246.38 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df67c4a4-a5cb-41f4-bc0f-069f24edacb5")
 	)
 	(wire
 		(pts
@@ -7693,6 +7963,150 @@
 		)
 	)
 	(symbol
+		(lib_id "SMBJ9_0A:SMBJ9.0A")
+		(at 223.52 133.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5e1872f-3141-48b4-a276-755e2a9fc478")
+		(property "Reference" "D6"
+			(at 227.33 139.1919 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ9.0A"
+			(at 227.33 141.7319 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMBJ9.0A:DIOM5436X261N"
+			(at 129.87 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.semtech.com/products/circuit-protection/esd-protection/smbj9.0a"
+			(at 29.87 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "1-Line ESD Protection"
+			(at 223.52 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.61"
+			(at -170.13 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at -270.13 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at -370.13 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "SEMTECH"
+			(at -470.13 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMBJ9.0A"
+			(at -570.13 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "b6749af7-827d-4f37-a023-40e844b3eefa")
+		)
+		(pin "2"
+			(uuid "b953a404-e416-4855-bdae-7169479ea3fd")
+		)
+		(instances
+			(project "power_v3.3"
+				(path "/432bcdcf-747a-4fa0-b87b-096f44260199/ef6b3a2b-31e3-4ffb-9457-e6034dbdb4b5"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 237.49 104.14 270)
 		(unit 1)
@@ -8184,7 +8598,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 238.76 134.62 180)
+		(at 231.14 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8195,29 +8609,29 @@
 		(fields_autoplaced yes)
 		(uuid "ebc9b748-39bb-4e84-949f-dfe7ae827f11")
 		(property "Reference" "BAT1"
-			(at 241.3 136.6519 0)
+			(at 233.68 126.2379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 241.3 139.1919 0)
+			(at 233.68 128.7779 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 233.68 134.62 0)
+			(at 236.22 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8228,7 +8642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 134.62 0)
+			(at 236.22 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8239,7 +8653,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 238.76 134.62 0)
+			(at 231.14 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8509,7 +8923,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 144.78 0)
+		(at 213.36 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8520,7 +8934,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9bd714f-d9d5-493d-9e97-6d91de34939f")
 		(property "Reference" "#PWR013"
-			(at 213.36 151.13 0)
+			(at 213.36 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8531,7 +8945,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 149.86 0)
+			(at 213.36 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8541,7 +8955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 144.78 0)
+			(at 213.36 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8552,7 +8966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 144.78 0)
+			(at 213.36 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8563,7 +8977,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 144.78 0)
+			(at 213.36 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
