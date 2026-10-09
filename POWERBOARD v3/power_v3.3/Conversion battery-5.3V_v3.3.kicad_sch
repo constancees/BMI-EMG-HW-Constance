@@ -2143,7 +2143,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Dailywell_01132020_5M_Series.pdf"
 			(at 102.87 300.33 0)
 			(hide yes)
 			(show_name no)
